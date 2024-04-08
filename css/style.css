@@ -163,3 +163,12 @@ a:hover {
     transition: 1s;
     transform: rotate3d(360deg);
 }
+
+@media only screen and (max-width: 476px) {
+    footer {
+        width: 100%;
+    }
+    a {
+        margin-inline: 10px;
+    }
+}
